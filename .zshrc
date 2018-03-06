@@ -111,6 +111,12 @@ alias silver6='ssh bella_yang@gw6.silver.musta.ch'
 alias silver7='ssh bella_yang@gw7.silver.musta.ch'
 alias silver8='ssh bella_yang@gw8.silver.musta.ch'
 alias silver9='ssh bella_yang@gw9.silver.musta.ch'
+alias gold1=‘ssh bella_yang@gw1.gold.musta.ch’
+alias jade1=‘ssh bella_yang@gw1.jade.ap-southeast-1.cneng.musta.ch’
+alias jade2=‘ssh bella_yang@gw2.jade.ap-southeast-1.cneng.musta.ch’
+alias jade3=‘ssh bella_yang@gw3.jade.ap-southeast-1.cneng.musta.ch’
+alias jadedev=‘ssh -L 8626:localhost:8626 ec2-52-221-247-180.ap-southeast-1.compute.amazonaws.com’
+
 
 alias amux='ssh -t bella_yang@@i-d6159ec0.inst.aws.airbnb.com "tmux attach || tmux new" '
 alias smux='ssh -t bella_yang@gw3.silver.musta.ch "tmux attach || tmux new" '
